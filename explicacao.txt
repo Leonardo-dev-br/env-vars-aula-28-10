@@ -3,6 +3,9 @@ VARIÁVEIS DE AMBIENTE NO NEXT
 Variáveis de ambiente só funcionam no momento de BUILD
 
 Padrão - Nome MAISCULA e underscore
+DB_HOST=localhost
+DB_USER=leo
+DB_PASS=654312
 
 
 Usar o valor de uma ENV Var - em NEXT
@@ -15,3 +18,8 @@ Para o Nojde ler o valor é:
 process.env.NOME_ENV
 
 				process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY
+
+
+VERCEL - Faz o Deploy do projeto
+Importa do GIT
+E adiciona as KEY e VALUES das API que vai consumir
