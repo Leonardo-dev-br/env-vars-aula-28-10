@@ -1,0 +1,17 @@
+VARIÁVEIS DE AMBIENTE NO NEXT
+
+Variáveis de ambiente só funcionam no momento de BUILD
+
+Padrão - Nome MAISCULA e underscore
+
+
+Usar o valor de uma ENV Var - em NEXT
+
+Precisa configurara o nome da variavel com o ré-fixo : NEXT_PUBLIC_
+				NEXT_PUBLIC_GOOGLE_MAPS_KEY
+
+Para o Nojde ler o valor é:
+
+process.env.NOME_ENV
+
+				process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY
